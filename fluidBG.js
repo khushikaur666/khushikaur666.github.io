@@ -1,4 +1,4 @@
-// fluid.js — lightweight glowing particle 'fluid' effect
+// fluid.BGjs — lightweight glowing particle 'fluid' effect
 (() => {
   const canvas = document.querySelector('canvas');
   const ctx = canvas.getContext('2d', { alpha: true });
