@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Khushi Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <!-- canvas: first canvas will be used by fluid.js -->
-  <canvas></canvas>
 
-  <nav>
+<head>
+<meta charset="UTF-8" />
+<title>Khushi Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<canvas></canvas>
+
+<nav class="nav">
     <div class="logo">Khushi</div>
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
     </ul>
-  </nav>
+</nav>
 
-  <div class="center">
-    <h1>Hey there!</h1>
-    <h2>I'm Khushi ✨</h2>
-    <p>Move your cursor & click to paint with light.</p>
-  </div>
+<section class="hero">
+    <h1 class="title">Hey, I'm <span>Khushi.</span></h1>
+    <p class="subtitle">Aspiring data analyst building cool things ✨</p>
+</section>
 
-  <!-- the interactive particle glow script -->
-  <script src="fluidBG.js"></script>
+<script src="fluid.js"></script>
 </body>
 </html>
 
