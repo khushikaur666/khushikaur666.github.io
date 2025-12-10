@@ -1,49 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<meta charset="UTF-8" />
-<title>Khushi Portfolio</title>
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
-</head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Khushi — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
 <body>
 
-<canvas></canvas>
+<canvas id="bg"></canvas>
 
-<nav class="nav">
-    <div class="logo">Khushi</div>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+<header>
+  <h1>Khushi</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
 <section class="hero">
-    <h1 class="title">Hey, I'm <span>Khushi.</span></h1>
-    <p class="subtitle">Aspiring data analyst building cool things ✨</p>
+  <h2>Hi, I’m Khushi</h2>
+  <h3><span class="typing"></span></h3>
 </section>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.halo.min.js"></script>
-
-<script>
-VANTA.HALO({
-  el: "body",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  backgroundColor: 0x000000,
-  baseColor: 0xffffff,
-  amplitudeFactor: 1.2,
-  size: 1.5
-})
-</script>
+<script src="typing.js"></script>
+<script src="particles.js"></script>
 
 </body>
 </html>
-
 
