@@ -9,7 +9,8 @@
 
 <body>
 
-<canvas id="fluid"></canvas>
+<!-- canvas must NOT have an id for the WebGL script -->
+<canvas></canvas>
 
 <nav>
     <div class="logo">Khushi</div>
@@ -27,7 +28,9 @@
     <h1>I'm Khushi 😄</h1>
 </div>
 
+<!-- load the WebGL fluid simulator -->
 <script src="fluid.js"></script>
+
 </body>
 </html>
 
